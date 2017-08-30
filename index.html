@@ -4,177 +4,164 @@
 <head>
 
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
 
     <title>BugHunter Group Page</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link href="./css/landing-page.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="./css/user.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="./font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <!-- Custom styles for this template -->
+    <link href="css/landing-page.css" rel="stylesheet">
 
+    <!-- Custom CSS -->
+    <link href="css/user.css" rel="stylesheet">
 </head>
 
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
-        <div class="container topnav">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand topnav" href="./index.html">BugHunter</a>
-            </div>
+            <a class="navbar-brand" href="./index.html">BugHunter</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="./about.html">About</a>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="./about.html">About</a>
                     </li>
-                    <li>
-                        <a href="./members.html">People</a>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="./members.html">People</a>
                     </li>
-                    <li>
-                        <a href="./publication.html">Publication</a>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="./publication.html">Publication</a>
                     </li>
-                    <li>
-                        <a href="./projects.html">Projects</a>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="./projects.html">Projects</a>
                     </li>
-                    <li>
-                        <a href="./toolsdata.html">Tools &amp; Data</a>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="./toolsdata.html">Tools &amp; Data</a>
                     </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container -->
     </nav>
 
 
     <!-- Header -->
-    <div class="intro-header">
+    <header class="intro-header">
         <div class="container">
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="intro-message">
-                        <h1>BugHunter Group</h1>
-                        <h3>SerVal, SnT, University of Luxembourg</h3>
-                        <hr class="intro-divider">
-                        <ul class="list-inline intro-social-buttons">
-                            <li>
-                                <a href="https://wwwen.uni.lu/snt/research/serval" class="btn btn-info btn-lg"><i class="fa"></i> <span class="network-name">SerVal</span></a>
-                            </li>
-                            <li>
-                                <a href="https://wwwen.uni.lu/snt" class="btn btn-info btn-lg"><i class="fa"></i> <span class="network-name">SnT</span></a>
-                            </li>
-                            <li>
-                                <a href="https://wwwen.uni.lu/" class="btn btn-info btn-lg"><i class="fa"></i> <span class="network-name">University of Luxembourg</span></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="intro-message">
+                <h1>BugHunter Group</h1>
+                <h3>SerVal, SnT, University of Luxembourg</h3>
+                <hr class="intro-divider">
+                <ul class="list-inline intro-social-buttons">
+                    <li class="list-inline-item">
+                        <a href="https://wwwen.uni.lu/snt/research/serval" class="btn btn-info btn-lg"><i class="fa"></i> <span class="network-name">SerVal</span></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://wwwen.uni.lu/snt" class="btn btn-info btn-lg"><i class="fa"></i> <span class="network-name">SnT</span></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://wwwen.uni.lu/" class="btn btn-info btn-lg"><i class="fa"></i> <span class="network-name">University of Luxembourg</span></a>
+                    </li>
+                </ul>
             </div>
-
         </div>
         <!-- /.container -->
-
-    </div>
-
-
-
+    </header>
     <!-- /.intro-header -->
 
+
+
+
     <!-- Page Content -->
-    <section class="features">
+    <aside class="banner">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-lg-6">
                     <h2>Resources</h2>
-                    <p>Recent results from our group on automated debugging.</p>
+                    <p class="lead">Recent results from our group on automated debugging.</p>
                 </div>
-                <div class="col-md-6">
-                    <div class="row icon-features">
-                        <div class="col-xs-4 icon-feature"><a href="./publicstion.html" class="text-neutral"><i class="glyphicon glyphicon-book"></i></a>
-                            <p>Publication </p>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-sm-4 icon-feature">
+                            <a href="./publicstion.html" class="text-neutral"><i class="fa fa-files-o fa-4x"></i></a>
+                            <p class="lead">Publication </p>
                         </div>
-                        <div class="col-xs-4 icon-feature"><a href="./toolsdata.html" class="text-neutral"><i class="glyphicon glyphicon-wrench"></i></a>
-                            <p>Tools &amp; Data </p>
+                        <div class="col-sm-4 icon-feature">
+                            <a href="./toolsdata.html" class="text-neutral"><i class="fa fa-wrench fa-4x"></i></a>
+                            <p class="lead">Tools &amp; Data </p>
                         </div>
-                        <div class="col-xs-4 icon-feature"><a href="./projects.html" class="text-neutral"><i class="glyphicon glyphicon-flag"></i></a>
-                            <p>Projects </p>
+                        <div class="col-sm-4 icon-feature">
+                            <a href="./projects.html" class="text-neutral"><i class="fa fa-map-marker fa-4x"></i></a>
+                            <p class="lead">Projects </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <section class="testimonials">
+    </aside>
+
+
+
+    <section class="content-section-a">
         <div class="container">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h1>Latest news</h1></div>
-                <div class="panel-body">
-                  <div class="media">
+            <div class="row">
+            <div class="card">
+                <div class="card-header">
+                  <h2 class="card-title">Latest news</h2>
+                </div>
+                <div class="card-block">
+                    <div class="media p-3">
+                            <div class="media-left">
+                                <a>
+                                    <div class="col-md-12"><i class="fa fa-user-circle-o news-icon text-danger"></i></div>
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="card-title">New Member Joined</h4>
+                                <p class="card-text lead text-muted">Kisub Kim has joined on 1st of August, 2017. He will work on code indexing and search.</p>
+                            </div>
+                    </div>
+
+                  <div class="media p-3">
                         <div class="media-left">
                             <a>
-                                <div class="col-md-12"><i class="glyphicon glyphicon-wrench news-icon"></i></div>
+                                <div class="col-md-12"><i class="fa fa-file-text news-icon text-danger"></i></div>
                             </a>
                         </div>
                         <div class="media-body">
-                            <h4>Future tool - bla bla bla</h4>
-                            <p>explanation here</p>
+                            <h4 class="card-title">CoCaBu (our code search tool) accepted @EMSE</h4>
+                            <p class="card-text lead text-muted">Our recent paper entitled "<strong>Augmenting and Structuring User Queries to Support Efficient Free-Form Code Search</strong>" has been accepted for Empirical Software Engineering Journal, written by Raphael Sirres, Tegawendé F. Bissyandé, Dongsun Kim, David Lo, Jacques Klein, Yves Le Traon</p>
                         </div>
                   </div>
 
-                  <div class="media">
-                        <div class="media-left">
-                            <a>
-                                <div class="col-md-12"><i class="glyphicon glyphicon-book news-icon"></i></div>
-                            </a>
-                        </div>
-                        <div class="media-body">
-                            <h4>CoCaBu (our code search tool) accepted @EMSE</h4>
-                            <p>Our recent paper entitled "<strong>Augmenting and Structuring User Queries to Support Efficient Free-Form Code Search</strong>" has been accepted for Empirical Software Engineering Journal, written by Raphael Sirres, Tegawendé F. Bissyandé, Dongsun Kim, David Lo, Jacques Klein, Yves Le Traon</p>
-                        </div>
-                  </div>
-
-                  <div class="media">
+                  <div class="media p-3">
                         <div class="media-left">
                           <a>
-			                           <div class="col-md-12"><i class="glyphicon glyphicon-book news-icon"></i></div>
+			                           <div class="col-md-12"><i class="fa fa-file-text news-icon text-danger"></i></div>
                             </a>
                         </div>
                         <div class="media-body">
-                            <h4>Patch study paper accepted @ISSTA 2017</h4>
-                            <p>Our recent paper entitled "<strong>Impact of Tool Support in Patch Construction</strong>" has been accepted for the 26th International Symposium on Software Testing and Analysis (ISSTA 2017), written by Anil Koyuncu, Tegawendé F. Bissyandé, Dongsun Kim, Jacques Klein, Martin Monperrus, and Yves Le Traon</p>
+                            <h4 class="card-title">Patch study paper accepted @ISSTA 2017</h4>
+                            <p class="card-text lead text-muted">Our recent paper entitled "<strong>Impact of Tool Support in Patch Construction</strong>" has been accepted for the 26th International Symposium on Software Testing and Analysis (ISSTA 2017), written by Anil Koyuncu, Tegawendé F. Bissyandé, Dongsun Kim, Jacques Klein, Martin Monperrus, and Yves Le Traon</p>
                         </div>
                   </div>
                 </div>
             </div>
+        </div>
         </div>
     </section>
     <!-- /Page Content -->
@@ -182,44 +169,40 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="list-inline">
-                        <li>
-                            <a href="./index.html">Home</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="./about.html">About</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="./members.html">People</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="./publication.html">Publication</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="./projects.html">Projects</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="./toolsdata.html">Tools &amp; Data</a>
-                        </li>
-                    </ul>
-                    <p class="copyright text-muted small">Copyright &copy; Your Company 2014. All Rights Reserved</p>
-                </div>
-            </div>
+
+            <ul class="list-inline">
+                <li class="list-inline-item lead">
+                    <a href="./index.html">Home</a>
+                </li>
+                <li class="footer-menu-divider list-inline-item">&sdot;</li>
+                <li class="list-inline-item lead">
+                    <a href="./about.html">About</a>
+                </li>
+                <li class="footer-menu-divider list-inline-item">&sdot;</li>
+                <li class="list-inline-item lead">
+                    <a href="./members.html">People</a>
+                </li>
+                <li class="footer-menu-divider list-inline-item">&sdot;</li>
+                <li class="list-inline-item lead">
+                    <a href="./publication.html">Publication</a>
+                </li>
+                <li class="footer-menu-divider list-inline-item">&sdot;</li>
+                <li class="list-inline-item lead">
+                    <a href="./projects.html">Projects</a>
+                </li>
+                <li class="footer-menu-divider list-inline-item">&sdot;</li>
+                <li class="list-inline-item lead">
+                    <a href="./toolsdata.html">Tools &amp; Data</a>
+                </li>
+            </ul>
+            <p class="copyright text-muted small">Copyright &copy; Your Company 2014. All Rights Reserved</p>
         </div>
     </footer>
 
-
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
 </body>
 
